@@ -1,6 +1,7 @@
 const allowedOrigins = [
   "https://weight-client.vercel.app",
   "http://localhost:5173",
+  "https://bodik87.github.io/vite-weight",
 ];
 
 export const corsOptions = {
