@@ -1,8 +1,4 @@
-const allowedOrigins = [
-  "http://localhost:5173",
-  "http://localhost:3000",
-  "https://weight-lost-client.vercel.app",
-];
+const allowedOrigins = ["https://weight-client.vercel.app/"];
 
 export const corsOptions = {
   origin: (origin, callback) => {
